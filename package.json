@@ -1,0 +1,19 @@
+{
+  "name": "toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "build:min": "node build.js --minify",
+    "format": "prettier --write \"src/**/*.js\" \"build.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "prettier": "^3.9.9",
+    "terser": "^5.51.2"
+  }
+}
